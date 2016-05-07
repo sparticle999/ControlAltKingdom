@@ -1,5 +1,5 @@
 var kingdomName = " "
-var grain = "1"
+var grainPerClick = "1"
 
 
 function startGame() {
