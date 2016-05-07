@@ -10,5 +10,12 @@ h1 {
   
 }
 #startButton {
-  padding:500px 500px 500px 500px;
+  background-color:purple;
+  border:solid blue 2px;
+  border-radius:5px;
+}
+#startButton:hover {
+  background-color:purple;
+  border:solid red 2px;
+  border-radius:5px;
 }
