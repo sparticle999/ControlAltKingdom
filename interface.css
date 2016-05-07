@@ -1,3 +1,4 @@
+
 .hidden {
   display: none;
 }
@@ -24,4 +25,7 @@ h1 {
   border:solid red 2px;
   border-radius:5px;
   padding:5px 5px 5px 5px;
+}
+.gameBackground {
+  background-color:#6B8E23;
 }
