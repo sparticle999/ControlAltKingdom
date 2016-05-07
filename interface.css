@@ -10,14 +10,16 @@ h1 {
   
 }
 #startButton {
+  color:orange;
+  font-weight:bold;
   background-color:purple;
   border:solid blue 2px;
   border-radius:5px;
-  color:orange;
 }
 #startButton:hover {
+  color:orange;
+  font-weight:bold;
   background-color:purple;
   border:solid red 2px;
   border-radius:5px;
-  color:orange;
 }
