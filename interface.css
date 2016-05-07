@@ -1,8 +1,6 @@
 .hidden {
   display: none;
 }
-#welcomingHeading {
-  margin:auto;
-  font-weight:bold;
-  
+h1 {
+  font-family:cursive;
 }
