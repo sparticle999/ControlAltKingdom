@@ -7,3 +7,6 @@ function startGame() {
   document.getElementById("kingdomName").innerHTML = kingdomName;
   
 }
+if kingdomName !== " " {
+  document.getElementById("startButton").innerHTML.setAttribute("hidden");
+}
