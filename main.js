@@ -8,5 +8,5 @@ function startGame() {
   
 }
 if kingdomName !== " " {
-  document.getElementById("startButton").innerHTML.setAttribute("hidden");
+  document.getElementById("startButton").className ="hidden";
 }
