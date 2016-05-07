@@ -14,5 +14,5 @@ function startGame() {
 }
 function getGrain() {
   grain += grainPerClick;
-  document.getElementById("grain").innerHTML = grain
+  document.getElementById("grain").innerHTML = grain;
 }
