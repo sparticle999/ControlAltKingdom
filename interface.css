@@ -13,9 +13,11 @@ h1 {
   background-color:purple;
   border:solid blue 2px;
   border-radius:5px;
+  color:orange;
 }
 #startButton:hover {
   background-color:purple;
   border:solid red 2px;
   border-radius:5px;
+  color:orange;
 }
