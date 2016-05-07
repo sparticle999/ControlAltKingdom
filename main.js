@@ -1,4 +1,5 @@
 var kingdomName = " "
+var grain = "1"
 
 
 function startGame() {
@@ -7,4 +8,11 @@ function startGame() {
   document.getElementById("kingdomName").innerHTML = kingdomName;
   document.getElementById("startButton").className += "hidden";
   document.getElementById("background").className = "gameBackground";
+  document.getElementById("grainStore").className = " ";
+  document.getElementById("grainButton").className = " ";
+  
+}
+function getGrain() {
+  grain += grainPerClick;
+  document.getElementById("grain").innerHTML = grain
 }
