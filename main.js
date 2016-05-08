@@ -66,7 +66,7 @@ function upgradeGrainPrice() {
     if(money >= 300){
       upgrade3 = false;
       alert("Your Town is growing rapidly! your numbers are increasing and it is time that some policies were enacted!");
-      document.getElementById("goToResearch").className = " ";
+      document.getElementById("researchButton").className = " ";
     }
   }
   if(money >= upgradeGrainPricePrice) {
