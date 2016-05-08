@@ -8,9 +8,14 @@
 <body>
 	<div id="background" class="background">
 		<h1 id="welcomingHeading">Welcome to <span id="kingdomName"> </span></h1>
+		<br />
+		<span class="hidden" id="moneyBox">Money: <span id="money">0</span> Coins</span>
+		<br />
 		<button id="startButton" onclick="startGame()">Click to Begin!</button>
 		<br />
 		<button class="hidden" id="grainButton" onclick="getGrain()">Click to Harvest Grain!</button>
+		<br />
+		<button class="hidden" id="grainSellButton" onclick="sellGrain()">Click to Sell your Grain for <span class="hidden" id="grainSellPrice">2</span> Coins</button>
 		<br />
 		<span class="hidden" id="grainStore">Grain: <span id="grainNumber">0</span></span>
 		<br />
