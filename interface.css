@@ -126,3 +126,8 @@ h1 {
   border-radius:10px;
   padding:5px 5px 5px 5px;
 }
+#oreResearch {
+  height:100px;
+  width:100px;
+  border:2px solid #000080;
+}
