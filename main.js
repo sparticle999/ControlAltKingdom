@@ -64,7 +64,7 @@ function upgradeGrainPrice() {
   if(money >= upgradeGrainPricePrice) {
     money -= upgradeGrainPricePrice;
     upgradeGrainPricePrice = Math.floor(upgradeGrainPricePrice * 1.5);
-    grainSellPrice = (grainPriceLevel * grainSellprice);
+    grainSellPrice = (grainPriceLevel * 0.5);
     document.getElementById("money").innerHTML = money;
     document.getElementById("grainSellPrice") = grainSellprice;
     document.getElementById("upgradeGrainPricePrice") = upgradeGrainPricePrice;
