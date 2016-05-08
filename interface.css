@@ -19,7 +19,7 @@ h1 {
   padding:5px 5px 5px 5px;
 }
 #startButton:hover {
-  color:black;
+  color:orange;
   font-weight:bold;
   background-color:purple;
   border:solid red 2px;
@@ -127,7 +127,7 @@ h1 {
   padding:5px 5px 5px 5px;
 }
 #oreResearch {
-  color:orange;
+  color:black;
   font-family:Geneva;
   font-weight:bold;
   font-size:13px;
