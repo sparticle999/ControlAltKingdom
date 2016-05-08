@@ -134,5 +134,15 @@ h1 {
   height:100px;
   width:100px;
   border:2px solid navy;
-  border-radius:10px;
+  border-radius:20px;
+}
+#oreResearch:hover {
+  color:black;
+  font-family:Geneva;
+  font-weight:bold;
+  font-size:13px;
+  height:100px;
+  width:100px;
+  border:2px solid red;
+  border-radius:20px;
 }
