@@ -90,7 +90,7 @@ function goToResearch() {
   document.getElementById("grainPriceUpgrade").className = "hidden";
   document.getElementById("researchButton").className = "hidden";
   document.getElementById("background").className = "researchBlueBackground";
-  document.getElementById("oreResearch").className = " ";
+  document.getElementById("scienceResearch").className = " ";
   document.getElementById("mainButton").className = " ";
 }
 function researchScience() {
