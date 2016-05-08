@@ -6,6 +6,8 @@ var upgradeGrainYieldPrice = 15;
 var upgrade1 = true;
 var grainSellPrice = 0.5;
 var money = 0;
+var upgradeGrainPricePrice = 20;
+var grainPriceLevel = 1;
 
 function startGame() {
   var gameStartPrompt = prompt("Welcome! Please Choose a Name For Your Kingdom to Begin!");
@@ -23,6 +25,13 @@ function startGame() {
 function getGrain() {
   grain += grainYieldLevel;
   document.getElementById("grainNumber").innerHTML = grain;
+  if(upgrade2 === true){
+    if(money >= 100){
+      upgrade2 = false;
+      alert("The local merchants and farmers like the look of your grain! You can increase the price of your grain!");
+      document.getElementById("grainPriceUpgrade").className = " ";
+    }
+  }
   if(upgrade1 === true){
     if(money >= 10){
       upgrade1 = false;
@@ -48,5 +57,15 @@ function upgradeGrainYield() {
     document.getElementById("upgradeGrainYieldPrice").innerHTML = upgradeGrainYieldPrice;
     document.getElementById("money").innerHTML = money;
     document.getElementById("grainYieldLevel").innerHTML = grainYieldLevel;
+  }
+}
+function upgradeGrainPrice() {
+  if(money >= upgradeGrainPricePrice) {
+    money -= upgradeGrainPricePrice;
+    upgradeGrainPricePrice = Math.floor(upgradeGrainPricePrice * 1.5);
+    grainSellPrice = (grainPriceLevel * grainSellprice);
+    document.getElementById("money").innerHTML = money;
+    document.getElementById("grainSellPrice") = grainSellprice;
+    document.getElementById("upgradeGrainPricePrice") = upgradeGrainPricePrice;
   }
 }
