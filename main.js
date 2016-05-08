@@ -47,6 +47,6 @@ function upgradeGrainYield() {
     grainYieldLevel += 1;
     document.getElementById("upgradeGrainYieldPrice").innerHTML = upgradeGrainYieldPrice;
     document.getElementById("money").innerHTML = money;
-    document.getElementById("yieldLevel").innerHTML = grainYieldLevel;
+    document.getElementById("grainYieldLevel").innerHTML = grainYieldLevel;
   }
 }
