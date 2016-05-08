@@ -43,7 +43,7 @@ function sellGrain() {
 function upgradeGrainYield() {
   if(money >= upgradeGrainYieldPrice) {
     money -= upgradeGrainYieldPrice;
-    upgradeGrainYieldPrice = upgradeGrainYieldPrice * 1.5;
+    upgradeGrainYieldPrice = Math.floor(upgradeGrainYieldPrice * 1.5);
     grainYieldLevel += 1;
     document.getElementById("upgradeGrainYieldPrice").innerHTML = upgradeGrainYieldPrice;
     document.getElementById("money").innerHTML = money;
