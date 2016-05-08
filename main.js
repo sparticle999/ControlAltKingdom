@@ -96,5 +96,6 @@ function goToResearch() {
 function researchScience() {
   if(money >= 0) {
     document.getElementById("oreResearch").className = " ";
+    document.getElementById("scienceResearch").className = "hidden";
   }
 }
