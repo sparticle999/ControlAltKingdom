@@ -120,3 +120,9 @@ h1 {
   border:solid #B8860B 1px;
   border-radius:7px;
 }
+.researchBlueBackground {
+  background-color: #6A5ACD;
+  border:solid 7px #000080;
+  border-radius:10px;
+  padding:5px 5px 5px 5px;
+}
