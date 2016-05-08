@@ -146,3 +146,41 @@ h1 {
   border:2px solid red;
   border-radius:20px;
 }
+#grainPriceUpgrade {
+  color:#DEB887;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#006400;
+  border:2px solid #DEB887;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+#grainPriceUpgrade:hover {
+  color:#DEB887;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#006400;
+  border:2px solid red;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+#researchButton {
+  color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px #000080;
+  border-radius:5px;
+}
+#researchButton:hover {
+  color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px red;
+  border-radius:5px;
+}
