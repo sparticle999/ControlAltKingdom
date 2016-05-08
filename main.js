@@ -75,7 +75,7 @@ function upgradeGrainPrice() {
     grainPriceLevel = (grainPriceLevel += 1);
     grainSellPrice = (grainPriceLevel * 0.5);
     document.getElementById("money").innerHTML = money;
-    document.getElementById("grainSellPrice").innerHTML = grainSellprice;
+    document.getElementById("grainSellPrice").innerHTML = grainSellPrice;
     document.getElementById("upgradeGrainPricePrice").innerHTML = upgradeGrainPricePrice;
   }
 }
