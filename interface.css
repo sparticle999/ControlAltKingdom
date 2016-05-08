@@ -27,5 +27,16 @@ h1 {
   padding:5px 5px 5px 5px;
 }
 .gameBackground {
-  background-color:#6B8E23;
+  background-color:#FAEBD7;
+}
+
+#grainButton {
+  color:#DEB887;
+  background-color:#006400;
+  border:2px solid purple;
+}
+#grainButton:hover {
+    color:#DEB887;
+  background-color:#006400;
+  border:2px solid red;
 }
