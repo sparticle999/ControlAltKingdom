@@ -15,5 +15,5 @@ function startGame() {
 }
 function getGrain() {
   grain += 1;
-  document.getElementById("grainNumber").innerHTML = grain;
+  document.getElementById("grainStore").innerHTML = grain;
 }
