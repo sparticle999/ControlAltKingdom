@@ -28,6 +28,8 @@ h1 {
 }
 .gameBackground {
   background-color:#FAEBD7;
+  border:solid 7px #DEB887;
+  border-radius:10px;
 }
 
 #grainButton {
