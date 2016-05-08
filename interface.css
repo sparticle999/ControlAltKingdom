@@ -19,7 +19,7 @@ h1 {
   padding:5px 5px 5px 5px;
 }
 #startButton:hover {
-  color:orange;
+  color:black;
   font-weight:bold;
   background-color:purple;
   border:solid red 2px;
