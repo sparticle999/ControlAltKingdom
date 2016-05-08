@@ -126,7 +126,7 @@ h1 {
   border-radius:10px;
   padding:5px 5px 5px 5px;
 }
-#oreResearch {
+#scienceResearch {
   color:black;
   font-family:Geneva;
   font-weight:bold;
@@ -136,7 +136,7 @@ h1 {
   border:2px solid navy;
   border-radius:20px;
 }
-#oreResearch:hover {
+#scienceResearch:hover {
   color:black;
   font-family:Geneva;
   font-weight:bold;
