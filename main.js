@@ -4,7 +4,7 @@ var grain = 0;
 var grainYieldLevel = 1;
 var upgrade1 = true;
 var grainSellPrice = 0.5;
-var money = 10;
+var money = 0;
 
 function startGame() {
   var gameStartPrompt = prompt("Welcome! Please Choose a Name For Your Kingdom to Begin!");
