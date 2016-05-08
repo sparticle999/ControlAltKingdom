@@ -44,3 +44,17 @@ h1 {
   border-radius:5px;
   padding:10px 10px 10px 10px;
 }
+#grainYieldUpgrade {
+  color:#DEB887;
+  background-color:#006400;
+  border:2px solid purple;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+#grainYieldUpgrade:hover {
+  color:#DEB887;
+  background-color:#006400;
+  border:2px solid red;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
