@@ -3,7 +3,7 @@ var grainPerClick = 1;
 var grain = 0;
 var grainYieldLevel = 1;
 var upgrade1 = true;
-var grainSellPrice = 2;
+var grainSellPrice = 0.5;
 var money = 10;
 
 function startGame() {
