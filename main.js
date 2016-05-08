@@ -1,7 +1,7 @@
 var kingdomName = " ";
 var grainPerClick = 1;
 var grain = 0;
-
+var grainYieldLevel = 1;
 
 function startGame() {
   var gameStartPrompt = prompt("Welcome! Please Choose a Name For Your Kingdom to Begin!");
@@ -14,7 +14,7 @@ function startGame() {
   
 }
 function getGrain() {
-  grain += 1;
+  grain += grainYieldLevel;
   document.getElementById("grainNumber").innerHTML = grain;
 }
 if(grain >= 50){
