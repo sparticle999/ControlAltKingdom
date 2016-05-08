@@ -3,6 +3,8 @@ var grainPerClick = 1;
 var grain = 0;
 var grainYieldLevel = 1;
 var upgrade1 = true;
+var grainSellPrice = 2;
+var money = 0;
 
 function startGame() {
   var gameStartPrompt = prompt("Welcome! Please Choose a Name For Your Kingdom to Begin!");
@@ -12,7 +14,9 @@ function startGame() {
   document.getElementById("background").className = "gameBackground";
   document.getElementById("grainStore").className = " ";
   document.getElementById("grainButton").className = " ";
-  
+  document.getElementById("grainSellPrice").className = " ";
+  document.getElementById("grainSellButton").className = " ";
+  document.getElementById("moneyBox").className = " ";
 }
 function getGrain() {
   grain += grainYieldLevel;
@@ -27,3 +31,13 @@ function getGrain() {
   }
   }
 
+function sellGrain() {
+  money += grain * grainSellPrice;
+  grain = 0;
+  document.getElementById("money").innerHTML = money;
+  document.getElementById("grainNumber").innerHTML = grain;
+}
+
+//function upgradeGrainYield {
+  
+//}
