@@ -184,3 +184,23 @@ h1 {
   border: solid 2px red;
   border-radius:5px;
 }
+#mainButton {
+  color:#DEB887;
+  font-family:Geneva;
+  font-size:20px;
+  font-weight:bold;
+  background-color:#006400;
+  border:2px solid #DEB887;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
+#mainButton:hover {
+  color:#DEB887;
+  font-family:Geneva;
+  font-size:20px;
+  font-weight:bold;
+  background-color:#006400;
+  border:2px solid red;
+  border-radius:5px;
+  padding:10px 10px 10px 10px;
+}
