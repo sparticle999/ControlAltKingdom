@@ -23,7 +23,7 @@ function getGrain() {
   grain += grainYieldLevel;
   document.getElementById("grainNumber").innerHTML = grain;
   if(upgrade1 === true){
-    if(grain >= 50){
+    if(money >= 10){
       upgrade1 = false;
       alert("Your modest town begins attracting wanderers who offer you advice and farming tools for a price.  This could increase our wheat production!");
       document.getElementById("grainYieldUpgrade").className = " ";
