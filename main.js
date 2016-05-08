@@ -89,4 +89,5 @@ function goToResearch() {
   document.getElementById("yieldLevel").className = "hidden";
   document.getElementById("grainPriceUpgrade").className = "hidden";
   document.getElementById("researchButton").className = "hidden";
+  document.getElementById("background").className = "researchBlueBackground"
 }
