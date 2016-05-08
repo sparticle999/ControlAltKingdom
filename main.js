@@ -16,7 +16,7 @@ function startGame() {
   document.getElementById("grainButton").className = " ";
   document.getElementById("grainSellPrice").className = " ";
   document.getElementById("grainSellButton").className = " ";
-  document.getElementById("moneyBox").className = " ";
+  document.getElementById("money").className = " ";
 }
 function getGrain() {
   grain += grainYieldLevel;
