@@ -2,6 +2,7 @@ var kingdomName = " ";
 var grainPerClick = 1;
 var grain = 0;
 var grainYieldLevel = 1;
+var upgradeGrainYieldPrice = 15;
 var upgrade1 = true;
 var grainSellPrice = 0.5;
 var money = 0;
@@ -39,6 +40,13 @@ function sellGrain() {
   document.getElementById("grainNumber").innerHTML = grain;
 }
 
-//function upgradeGrainYield {
-  
-//}
+function upgradeGrainYield {
+  if(money >= upgradeGrainYieldPrice) {
+    money -= upgradeGrainYieldPrice;
+    upgradeGrainYieldPrice = upgradeGrainYieldPrice * 1.5;
+    grainYieldLevel += 1;
+    document.getElementById("upgradeGrainYieldPrice").innerHTML = upgradeGrainYieldPrice;
+    document.getElementById("money") = money;
+    document.getElementById("yieldLevel") = grainYieldLevel;
+  }
+}
