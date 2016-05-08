@@ -1,6 +1,7 @@
 var kingdomName = " ";
 var grainPerClick = 1;
 var grain = 0;
+var upgrade1 === true;
 
 
 function startGame() {
@@ -16,9 +17,12 @@ function startGame() {
 function getGrain() {
   grain += 1;
   document.getElementById("grainNumber").innerHTML = grain;
-}
-if(grain >= 50){
-  alert("Your modest town begins attracting wanderers who offer you advice and farming tools for a price.  This could increase our wheat production!");
-  document.getElementById("grainYieldUpgrade").className = " ";
-  document.getElementById("yieldLevel").className = " ";
+  if(upgrade1 === true){
+    if(grain >= 50){
+      upgrade1 === false;
+      alert("Your modest town begins attracting wanderers who offer you advice and farming tools for a price.  This could increase our wheat production!");
+      document.getElementById("grainYieldUpgrade").className = " ";
+      document.getElementById("yieldLevel").className = " ";
+    }
+  }
 }
