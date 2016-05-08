@@ -26,13 +26,6 @@ function startGame() {
 function getGrain() {
   grain += grainYieldLevel;
   document.getElementById("grainNumber").innerHTML = grain;
-  if(upgrade2 === true){
-    if(money >= 100){
-      upgrade2 = false;
-      alert("The local merchants and farmers like the look of your grain! You can increase the price of your grain!");
-      document.getElementById("grainPriceUpgrade").className = " ";
-    }
-  }
   if(upgrade1 === true){
     if(money >= 10){
       upgrade1 = false;
@@ -48,6 +41,13 @@ function sellGrain() {
   grain = 0;
   document.getElementById("money").innerHTML = money;
   document.getElementById("grainNumber").innerHTML = grain;
+  if(upgrade2 === true){
+    if(money >= 100){
+      upgrade2 = false;
+      alert("The local merchants and farmers like the look of your grain! You can increase the price of your grain!");
+      document.getElementById("grainPriceUpgrade").className = " ";
+    }
+  }
 }
 
 function upgradeGrainYield() {
