@@ -91,4 +91,10 @@ function goToResearch() {
   document.getElementById("researchButton").className = "hidden";
   document.getElementById("background").className = "researchBlueBackground";
   document.getElementById("oreResearch").className = " ";
+  document.getElementById("mainButton").className = " ";
+}
+function researchScience() {
+  if(money >= 0) {
+    document.getElementById("oreResearch").className = " ";
+  }
 }
