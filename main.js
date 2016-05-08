@@ -1,7 +1,6 @@
 var kingdomName = " ";
 var grainPerClick = 1;
 var grain = 0;
-var
 
 
 function startGame() {
