@@ -85,7 +85,9 @@ function goToResearch() {
   document.getElementById("kingdomScreen").className = "hidden";
 }
 function goToMain() {
- 
+ document.getElementById("background").className = "mainBackground";
+ document.getElementById("techScreen").className = "hidden";
+ document.getElementById("kingdomScreen").className = " "
 }
 
 function researchScience() {
