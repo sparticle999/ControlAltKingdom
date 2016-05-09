@@ -7,6 +7,7 @@
 </head>
 <body>
 	<div id="background" class="background">
+	<div id="kingdomScreen">
 		<h1 id="welcomingHeading">Welcome to <span id="kingdomName"> </span></h1>
 		<br />
 		<span class="hidden" id="moneyBox">Coins: <span id="money">0</span></span>
@@ -27,11 +28,14 @@
 		<br />
 		<button class="hidden" id="researchButton" onclick="goToResearch()">Click to Access the Town Policies Screen!</button>
 		<br />
-		<button class="hidden" id="mainButton" onclick="goToMain()">Click to Return to the Kingdom Screen!</button>
+	</div>
+	<div id="techScreen" class="hidden">
+		<button id="mainButton" onclick="goToMain()">Click to Return to the Kingdom Screen!</button>
 		<br />
-		<button class="hidden" id="scienceResearch" onclick="researchScience()">Science Unlock</button>
+		<button id="scienceResearch" onclick="researchScience()">Science Unlock</button>
 		<br />
 		<button class="hidden" id="oreResearch" onclick="researchOre()">Ore Mining</button>
+	</div>
 	</div>
 
     	<script type="text/javascript" src="main.js"></script>
