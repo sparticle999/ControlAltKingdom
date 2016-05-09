@@ -10,8 +10,8 @@ var upgradeGrainPricePrice = 20;
 var grainPriceLevel = 1;
 var upgrade2 = true;
 var upgrade3 = true;
-var science = 0;
-var scienceModifier = 0.5
+var randomEvent = 0;
+var randomEventNum = 0;
 
 function getMoney(){
   money += 10000;
@@ -105,10 +105,50 @@ function researchScience() {
     document.getElementById("scienceResearch").className = "hidden";
   }
 }
-function getScience() {
-  science += scienceModifier;
-  document.getElementById("scienceNumber").innerHTML = science;
-}
 function researchOre() {
   
 }
+
+function randomEvent(){
+  randomEventNum = Math.rand * 100;
+  if(randomEventNum < 10){
+    
+  }
+  if(randomEventNum > 10 && randomEventNum < 20){
+    
+  }
+  if(randomEventNum > 20 && randomEventNum < 30){
+    
+  }
+  if(randomEventNum > 30 && randomEventNum < 40){
+    
+  }
+  if(randomEventNum > 40 && randomEventNum < 50){
+    
+  }
+  if(randomEventNum > 50 && randomEventNum < 60){
+    
+  }
+  if(randomEventNum > 60 && randomEventNum < 70){
+    
+  }
+  if(randomEventNum > 70 && randomEventNum < 80){
+    
+  }
+  if(randomEventNum > 80 && randomEventNum < 90){
+    
+  }
+  if(randomEventNum > 90 && randomEventNum < 100){
+    
+  }
+}
+
+// 1 Second Loop
+window.setInterval(function(){
+  // Put code to be run every second in here.
+  randomEvent += 1;
+  if(randomEvent > 300){
+    randomEvent = 0;
+    randomEvent();
+  }
+}, 1000);
