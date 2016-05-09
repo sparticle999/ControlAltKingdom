@@ -89,12 +89,12 @@ function goToResearch() {
   document.getElementById("techScreen").className = " ";
   document.getElementById("kingdomScreen").className = "hidden";
   document.getElementById("science").className = " ";
+  document.getElementById("scienceButton").className = " "
 }
 function goToMain() {
  document.getElementById("background").className = "mainBackground";
  document.getElementById("techScreen").className = "hidden";
  document.getElementById("kingdomScreen").className = " ";
- document.getElementById("science").className = "hidden";
 }
 
 function researchScience() {
