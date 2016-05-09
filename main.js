@@ -100,4 +100,5 @@ function researchScience() {
   }
 }
 function goToMain() {
+  document.getElementsByClassName("hidden1").className = " ";
 }
