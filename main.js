@@ -10,6 +10,8 @@ var upgradeGrainPricePrice = 20;
 var grainPriceLevel = 1;
 var upgrade2 = true;
 var upgrade3 = true;
+var science = 0;
+var scienceModifier = 0.5
 
 function getMoney(){
   money += 10000;
@@ -102,6 +104,10 @@ function researchScience() {
     document.getElementById("oreResearch").className = " ";
     document.getElementById("scienceResearch").className = "hidden";
   }
+}
+function getScience() {
+  science += scienceModifier;
+  document.getElementById("scienceNumber").innerHTML = science;
 }
 function researchOre() {
   
