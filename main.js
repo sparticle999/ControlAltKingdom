@@ -80,15 +80,15 @@ function upgradeGrainPrice() {
   }
 }
 function goToResearch() {
-  document.getElementById("moneyBox").className = "hidden";
-  document.getElementById("grainButton").className = "hidden";
-  document.getElementById("grainSellButton").className = "hidden";
-  document.getElementById("grainStore").className = "hidden";
-  document.getElementById("grainYieldUpgrade").className = "hidden";
-  document.getElementById("welcomingHeading").className = "hidden";
-  document.getElementById("yieldLevel").className = "hidden";
-  document.getElementById("grainPriceUpgrade").className = "hidden";
-  document.getElementById("researchButton").className = "hidden";
+  document.getElementById("moneyBox").className = "hidden1";
+  document.getElementById("grainButton").className = "hidden1";
+  document.getElementById("grainSellButton").className = "hidden1";
+  document.getElementById("grainStore").className = "hidden1";
+  document.getElementById("grainYieldUpgrade").className = "hidden1";
+  document.getElementById("welcomingHeading").className = "hidden1";
+  document.getElementById("yieldLevel").className = "hidden1";
+  document.getElementById("grainPriceUpgrade").className = "hidden1";
+  document.getElementById("researchButton").className = "hidden1";
   document.getElementById("background").className = "researchBlueBackground";
   document.getElementById("scienceResearch").className = " ";
   document.getElementById("mainButton").className = " ";
@@ -98,4 +98,6 @@ function researchScience() {
     document.getElementById("oreResearch").className = " ";
     document.getElementById("scienceResearch").className = "hidden";
   }
+}
+function goToMain() {
 }
