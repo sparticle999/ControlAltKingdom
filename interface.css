@@ -213,3 +213,21 @@ h1 {
   border-radius:10px;
   padding:5px 5px 5px 5px;
 }
+#oreresearch {
+  color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px #000080;
+  border-radius:5px;
+}
+#oreResearch:hover {
+  color:#191970;
+  font-weight:bold;
+  font-family:Geneva;
+  font-size:20px;
+  background-color:#4169E1;
+  border: solid 2px red;
+  border-radius:5px;
+}
