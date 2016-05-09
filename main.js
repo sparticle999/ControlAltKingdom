@@ -11,6 +11,11 @@ var grainPriceLevel = 1;
 var upgrade2 = true;
 var upgrade3 = true;
 
+function getMoney(){
+  money += 10000;
+  document.getElementById("money").innerHTML = money;
+}
+
 function startGame() {
   var gameStartPrompt = prompt("Welcome! Please Choose a Name For Your Kingdom to Begin!");
   kingdomName = gameStartPrompt;
