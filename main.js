@@ -80,25 +80,17 @@ function upgradeGrainPrice() {
   }
 }
 function goToResearch() {
-  document.getElementById("moneyBox").className = "hidden1";
-  document.getElementById("grainButton").className = "hidden1";
-  document.getElementById("grainSellButton").className = "hidden1";
-  document.getElementById("grainStore").className = "hidden1";
-  document.getElementById("grainYieldUpgrade").className = "hidden1";
-  document.getElementById("welcomingHeading").className = "hidden1";
-  document.getElementById("yieldLevel").className = "hidden1";
-  document.getElementById("grainPriceUpgrade").className = "hidden1";
-  document.getElementById("researchButton").className = "hidden1";
   document.getElementById("background").className = "researchBlueBackground";
-  document.getElementById("scienceResearch").className = " ";
-  document.getElementById("mainButton").className = " ";
+  document.getElementById("techScreen").className = " ";
+  document.getElementById("kingdomScreen").className = "hidden";
 }
+function goToMain() {
+ 
+}
+
 function researchScience() {
   if(money >= 0) {
     document.getElementById("oreResearch").className = " ";
     document.getElementById("scienceResearch").className = "hidden";
   }
-}
-function goToMain() {
-  document.getElementsByClassName("hidden1").className = " ";
 }
