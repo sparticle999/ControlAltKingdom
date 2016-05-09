@@ -101,3 +101,6 @@ function researchScience() {
     document.getElementById("scienceResearch").className = "hidden";
   }
 }
+function researchOre() {
+  
+}
